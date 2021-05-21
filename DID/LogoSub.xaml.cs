@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace DID
 {
@@ -23,6 +24,15 @@ namespace DID
         public LogoSub()
         {
             InitializeComponent();
+            DispatcherTimer clockUpdater = new DispatcherTimer();
+            clockUpdater.Tick += updateTime;
+            clockUpdater.Interval = new TimeSpan(0, 0, 5);
+            clockUpdater.Start();
+        }
+
+        private void updateTime(object sender, EventArgs e)
+        {
+            clock.Text = DateTime.Now.ToString("yyyy년 MM월 dd일 HH시 mm분");
         }
     }
 }

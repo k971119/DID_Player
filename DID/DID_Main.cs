@@ -131,7 +131,6 @@ namespace DID
             ContentsLoadTimer1.Interval = new TimeSpan(0, 0, 30);
             ContentsLoadTimer1.Start();
             
-            
 
 
         }
@@ -217,6 +216,8 @@ namespace DID
             {
                 NoticeDataLoad();
             }
+
+
         }
 
         #region 로그 셋팅
@@ -442,6 +443,13 @@ namespace DID
             }
         }
 
+        private void updateNews(object sender, EventArgs e)
+        {
+            XMLReader reader = new XMLReader(@"\\192.168.0.116\c$\Surable\DataServer\XML\News.xml");
+            _NoticeData = reader.Read();
+            _NoticeText.moveText(_NoticeData, _dWidth);
+        }
+
         //sScheduleType ==> 스케쥴의 템플릿 레이아웃 수, 레이아웃 번호
         //bSchedule(true) 우선스케쥴
         //bSchedule(false) 기본스케쥴
@@ -523,8 +531,12 @@ namespace DID
                     _NoticeText.InitializeComponent();
                     _NewsHost.Child = _NoticeText;
                     //_NoticeText.setText("카카오 1분기 실적조사 및 계획 발표", dMaxWidth, 3);//_iCaptionTime);
-                    XMLReader reader = new XMLReader("C:\\Surable\\DataServer\\XML\\News.xml");
+                    XMLReader reader = new XMLReader(@"\\192.168.0.116\c$\Surable\DataServer\XML\News.xml");
                     _NoticeData = reader.Read();
+                    DispatcherTimer newsUpdater = new DispatcherTimer();
+                    newsUpdater.Tick += updateNews;
+                    newsUpdater.Interval = new TimeSpan(0, 0, (int)(_NoticeData.Replace(" ", "").Length * 0.3 < 10 ? 15 : _NoticeData.Replace(" ", "").Length * 0.3)*2);
+                    newsUpdater.Start();
                     _NoticeText.moveText(_NoticeData, dMaxWidth);
 
                 }

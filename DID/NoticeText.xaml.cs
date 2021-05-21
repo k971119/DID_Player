@@ -57,8 +57,8 @@ namespace DID
 
             DoubleAnimation anime = new DoubleAnimation();
 
-            anime.From = -(width*2);
             anime.To = width;
+            anime.From = -(width*3);
             anime.RepeatBehavior = RepeatBehavior.Forever;
             anime.Duration = TimeSpan.FromSeconds(txt.Replace(" ","").Length *0.3 < 10? 15: txt.Replace(" ", "").Length * 0.3);
             TxtInterfaceBottom.BeginAnimation(Canvas.RightProperty, anime);

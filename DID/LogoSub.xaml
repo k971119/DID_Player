@@ -9,7 +9,7 @@
     <Grid>
 
         <Image Source="img/logo.png" Width="400" Height="250"/>
-        <TextBlock FontSize="15pt" Text="21년 5월 20일 오후 3시 31분" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <TextBlock x:Name="clock" FontSize="15pt" Text="21년 5월 20일 오후 3시 31분" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 
     </Grid>
 </UserControl>
