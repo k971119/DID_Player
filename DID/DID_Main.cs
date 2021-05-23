@@ -173,12 +173,16 @@ namespace DID
             try
             {
                 JArray jArr = _ConnectWeb.ConnectWebData(_sWebServerPath + "Contents.jsp");
+                if(jArr == null)
+                {
+                    throw new ArgumentNullException("파일다운로드 실패");
+                }
                 string sFileList = jArr.ToString();
                 if (!sFileList.Equals(_sFileList))
                 {
                     _sFileList = sFileList;
                     DirectoryInfo diFolder = new DirectoryInfo(_sContentLocalPath);
-                    if (!diFolder.Exists)
+                    if (!diFolder.Exists)           //에러
                     {
                         diFolder.Create();
                     }
