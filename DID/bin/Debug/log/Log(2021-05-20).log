@@ -1,0 +1,32 @@
+2021-05-20 18:58:29,808 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.InvalidOperationException: 'RenderTransformOrigin' 속성이 '(0).(1)' 경로의 DependencyObject를 지정하고 있지 않습니다.
+   위치: System.Windows.Media.Animation.Storyboard.VerifyPathIsAnimatable(PropertyPath path)
+   위치: System.Windows.Media.Animation.Storyboard.ClockTreeWalkRecursive(Clock currentClock, DependencyObject containingObject, INameScope nameScope, DependencyObject parentObject, String parentObjectName, PropertyPath parentPropertyPath, HandoffBehavior handoffBehavior, HybridDictionary clockMappings, Int64 layer)
+   위치: System.Windows.Media.Animation.Storyboard.ClockTreeWalkRecursive(Clock currentClock, DependencyObject containingObject, INameScope nameScope, DependencyObject parentObject, String parentObjectName, PropertyPath parentPropertyPath, HandoffBehavior handoffBehavior, HybridDictionary clockMappings, Int64 layer)
+   위치: System.Windows.Media.Animation.Storyboard.BeginCommon(DependencyObject containingObject, INameScope nameScope, HandoffBehavior handoffBehavior, Boolean isControllable, Int64 layer)
+   위치: System.Windows.Media.Animation.Storyboard.Begin(FrameworkElement containingObject)
+   위치: DID.NoticeText.moveText(String txt, Double time) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\NoticeText.xaml.cs:줄 90
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 526
+2021-05-20 18:59:38,058 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.InvalidOperationException: 'RenderTransformOrigin' 속성이 '(0).(1)' 경로의 DependencyObject를 지정하고 있지 않습니다.
+   위치: System.Windows.Media.Animation.Storyboard.VerifyPathIsAnimatable(PropertyPath path)
+   위치: System.Windows.Media.Animation.Storyboard.ClockTreeWalkRecursive(Clock currentClock, DependencyObject containingObject, INameScope nameScope, DependencyObject parentObject, String parentObjectName, PropertyPath parentPropertyPath, HandoffBehavior handoffBehavior, HybridDictionary clockMappings, Int64 layer)
+   위치: System.Windows.Media.Animation.Storyboard.ClockTreeWalkRecursive(Clock currentClock, DependencyObject containingObject, INameScope nameScope, DependencyObject parentObject, String parentObjectName, PropertyPath parentPropertyPath, HandoffBehavior handoffBehavior, HybridDictionary clockMappings, Int64 layer)
+   위치: System.Windows.Media.Animation.Storyboard.BeginCommon(DependencyObject containingObject, INameScope nameScope, HandoffBehavior handoffBehavior, Boolean isControllable, Int64 layer)
+   위치: System.Windows.Media.Animation.Storyboard.Begin(FrameworkElement containingObject)
+   위치: DID.NoticeText.moveText(String txt, Double time) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\NoticeText.xaml.cs:줄 90
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 526
+2021-05-20 19:25:09,855 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.ArgumentException: TimeSpan에 부동 소수점 Not-a-Number 값을 사용할 수 없습니다.
+   위치: System.TimeSpan.Interval(Double value, Int32 scale)
+   위치: DID.NoticeText.moveText(String txt, Double width) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\NoticeText.xaml.cs:줄 65
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 528
+2021-05-20 19:25:39,681 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.ArgumentException: TimeSpan에 부동 소수점 Not-a-Number 값을 사용할 수 없습니다.
+   위치: System.TimeSpan.Interval(Double value, Int32 scale)
+   위치: DID.NoticeText.moveText(String txt, Double width) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\NoticeText.xaml.cs:줄 65
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 528

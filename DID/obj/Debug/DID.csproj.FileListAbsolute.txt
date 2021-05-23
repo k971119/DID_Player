@@ -1,0 +1,122 @@
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\DID.exe.config
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\DID.exe
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\DID.pdb
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\log4net.dll
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\Newtonsoft.Json.dll
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\NReco.VideoInfo.dll
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\log4net.xml
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\Newtonsoft.Json.xml
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\NReco.VideoInfo.xml
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\Interop.WMPLib.dll
+C:\Users\unifo\source\repos\DID\DID\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\Interop.WMPLib.dll
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.csproj.ResolveComReference.cache
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.CaptionText.resources
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.DID_Form.resources
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.Properties.Resources.resources
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.Schedule.resources
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.csproj.GenerateResource.cache
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.csproj.CoreCompileInputs.cache
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.csproj.CopyComplete
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.exe
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.pdb
+C:\Users\unifo\source\repos\DID\DID\obj\Debug\DID.MoveText.resources
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\DID.exe.config
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\DID.exe
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\DID.pdb
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\log4net.dll
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\Newtonsoft.Json.dll
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\NReco.VideoInfo.dll
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\WinFormAnimation.dll
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\log4net.xml
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\Newtonsoft.Json.xml
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\NReco.VideoInfo.xml
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\Interop.WMPLib.dll
+C:\Users\unifo\source\repos\DID - ani\DID\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.csprojAssemblyReference.cache
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\Interop.WMPLib.dll
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.csproj.ResolveComReference.cache
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.DID_Form.resources
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.MoveText.resources
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.Properties.Resources.resources
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.Schedule.resources
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.csproj.GenerateResource.cache
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.csproj.CoreCompileInputs.cache
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.csproj.CopyComplete
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.exe
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.pdb
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID_MarkupCompile.cache
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID_MarkupCompile.lref
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\DID.g.resources
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\NoticeText.g.cs
+C:\Users\unifo\source\repos\DID - ani\DID\obj\Debug\NoticeText.baml
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\DID.exe.config
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\DID.exe
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\DID.pdb
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\log4net.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\NReco.VideoInfo.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\WinFormAnimation.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\log4net.xml
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\NReco.VideoInfo.xml
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\Interop.WMPLib.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csprojAssemblyReference.cache
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\Interop.WMPLib.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.ResolveComReference.cache
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\NoticeText.g.cs
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID_MarkupCompile.cache
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID_MarkupCompile.lref
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\NoticeText.baml
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.g.resources
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.DID_Form.resources
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.MoveText.resources
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.Properties.Resources.resources
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.Schedule.resources
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.GenerateResource.cache
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.CopyComplete
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.exe
+C:\Users\User\Downloads\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.pdb
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\DID.exe.config
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\DID.exe
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\DID.pdb
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\log4net.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\NReco.VideoInfo.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\WinFormAnimation.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\log4net.xml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\NReco.VideoInfo.xml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\Interop.WMPLib.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\Interop.WMPLib.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\NoticeText.g.cs
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\StockSub.g.cs
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\LogoSub.g.cs
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\EtcSub.g.cs
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\WeatherSub.g.cs
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID_MarkupCompile.cache
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID_MarkupCompile.lref
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\NoticeText.baml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\StockSub.baml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\LogoSub.baml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\EtcSub.baml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\WeatherSub.baml
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.g.resources
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.DID_Form.resources
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.MoveText.resources
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.Properties.Resources.resources
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.Schedule.resources
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.GenerateResource.cache
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csproj.CopyComplete
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.exe
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.pdb
+C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\obj\Debug\DID.csprojAssemblyReference.cache

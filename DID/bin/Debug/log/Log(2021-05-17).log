@@ -1,0 +1,7 @@
+2021-05-17 14:42:37,282 [3] ERROR DID.DID_Form - ContentsFileCheckTimer_Tick Error 
+
+System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Windows.Forms.SafeNativeMethods.MessageBox(HandleRef hWnd, String text, String caption, Int32 type)
+   위치: System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   위치: System.Windows.Forms.MessageBox.Show(String text)
+   위치: DID.DID_Form.FileDownLoad() 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 194

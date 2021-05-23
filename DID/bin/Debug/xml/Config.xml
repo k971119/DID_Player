@@ -1,0 +1,5 @@
+<Info>
+<ServerIP>192.168.0.116:8080/Building_Information</ServerIP>
+<CaptionTime>5</CaptionTime>//자막 속도 조정 - 나누기 숫자(3)이 낮을수록 속도 다운, 높을수록 속도 업
+<CaptionTextCount>1000</CaptionTextCount>//자막 글자 상한
+</Info>

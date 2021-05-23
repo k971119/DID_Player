@@ -1,0 +1,4 @@
+2021-05-21 17:40:26,194 [4] ERROR DID.DID_Form - ConnectWeb - ConnectWebData Error
+System.Net.WebException: 원격 서버에서 (500) 내부 서버 오류 오류를 반환했습니다.
+   위치: System.Net.HttpWebRequest.GetResponse()
+   위치: DID.ConnectWeb.ConnectWebData(String sUrl) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\ConnectWeb.cs:줄 31
