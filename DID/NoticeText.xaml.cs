@@ -28,6 +28,8 @@ namespace DID
         public NoticeText()
         {
             InitializeComponent();
+
+            BottomSubTitle.Width = System.Windows.SystemParameters.PrimaryScreenWidth;
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -51,16 +53,16 @@ namespace DID
             TxtInterfaceBottom.BeginAnimation(Canvas.RightProperty, doubleAnimation);
         }
 
-        public void moveText(string txt, double width)
+        public void moveText(string txt)
         {
             TxtInterfaceBottom.Text = txt;
 
             DoubleAnimation anime = new DoubleAnimation();
 
-            anime.To = width;
-            anime.From = -(width*3);
+            anime.To = ShapeMeasure(TxtInterfaceBottom).Width/2;
+            anime.From = -ShapeMeasure(TxtInterfaceBottom).Width;
             anime.RepeatBehavior = RepeatBehavior.Forever;
-            anime.Duration = TimeSpan.FromSeconds(txt.Replace(" ","").Length *0.3 < 10? 15: txt.Replace(" ", "").Length * 0.3);
+            anime.Duration = TimeSpan.FromSeconds(txt.Replace(" ","").Length *0.4 < 10? 15: txt.Replace(" ", "").Length * 0.4);
             TxtInterfaceBottom.BeginAnimation(Canvas.RightProperty, anime);
         }
 

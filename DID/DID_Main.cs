@@ -82,9 +82,13 @@ namespace DID
         
         string _sBasicScheduleList = string.Empty;                                                                                 //기본 스케쥴 비교 저장
         string _sNowScheduleList = string.Empty;                                                                                  //우선 스케쥴 비교 저장
-        string _NoticeData = "카카오뱅크 1분기 순익 467억원…이용자 1615만명 은행권 1위...그리고 그다음 텍스트 어디까지 가나 보자";
         int _iCaptionTime = 3;
         int _iTextCount = 1000;
+
+        //Resorce
+        string _NoticeData = "뉴스";
+        string temp = "";
+        string climate = "";
 
 
         public DID_Form()
@@ -450,8 +454,20 @@ namespace DID
         private void updateNews(object sender, EventArgs e)
         {
             XMLReader reader = new XMLReader(@"\\192.168.0.116\c$\Surable\DataServer\XML\News.xml");
-            _NoticeData = reader.Read();
-            _NoticeText.moveText(_NoticeData, _dWidth);
+            _NoticeData = reader.NewsRead();
+            _NoticeText.moveText(_NoticeData);
+        }
+
+        private void updateWeather(object sender, EventArgs e)
+        {
+            XMLReader weatherReader = new XMLReader(@"C:\Users\User\Documents\카카오톡 받은 파일\DataServer (1)\DataServer\XML\Weather.xml");
+            String[] data = weatherReader.WeatherRead();
+            _WeatherSub.setWeather(data[0], data[1]);
+        }
+
+        private void updateStock(object sender, EventArgs e)
+        {
+
         }
 
         //sScheduleType ==> 스케쥴의 템플릿 레이아웃 수, 레이아웃 번호
@@ -526,6 +542,16 @@ namespace DID
                     etc1.BackColor = Color.Blue;
                     this.Controls.Add(etc1);
 
+                    XMLReader weatherReader = new XMLReader(@"\\192.168.0.116\c$\Surable\DataServer\XML\Weather.xml");
+                    String[] data = weatherReader.WeatherRead();
+                    _WeatherSub.setWeather(data[0], data[1]);
+
+                    DispatcherTimer weatherUpdater = new DispatcherTimer();
+                    weatherUpdater.Tick +=updateWeather;
+                    weatherUpdater.Interval = new TimeSpan(0, 30, 0);
+                    weatherUpdater.Start();
+                    
+
                     //뉴스 자막
                     _NewsHost.Location = new Point(0, (int)dMaxHeight - 100);
                     _NewsHost.Width = (int)dMaxWidth;
@@ -535,14 +561,14 @@ namespace DID
                     _NoticeText.InitializeComponent();
                     _NewsHost.Child = _NoticeText;
                     //_NoticeText.setText("카카오 1분기 실적조사 및 계획 발표", dMaxWidth, 3);//_iCaptionTime);
-                    XMLReader reader = new XMLReader(@"\\192.168.0.116\c$\Surable\DataServer\XML\News.xml");
-                    _NoticeData = reader.Read();
+                    XMLReader newsReader = new XMLReader(@"\\192.168.0.116\c$\Surable\DataServer\XML\News.xml");
+                    _NoticeData = newsReader.NewsRead();
+                    _NoticeText.moveText(_NoticeData);
                     DispatcherTimer newsUpdater = new DispatcherTimer();
-                    newsUpdater.Tick += updateNews;
-                    newsUpdater.Interval = new TimeSpan(0, 0, (int)(_NoticeData.Replace(" ", "").Length * 0.3 < 10 ? 15 : _NoticeData.Replace(" ", "").Length * 0.3)*2);
-                    newsUpdater.Start();
-                    _NoticeText.moveText(_NoticeData, dMaxWidth);
 
+                    newsUpdater.Tick += updateNews;
+                    newsUpdater.Interval = new TimeSpan(0, 0, (int)(_NoticeData.Replace(" ", "").Length * 0.4 < 10 ? 15 : _NoticeData.Replace(" ", "").Length * 0.4));
+                    newsUpdater.Start();
                 }
                 else if (_PlayerInfo.sPlayerType == "BasicDid")
                 {

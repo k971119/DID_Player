@@ -5,11 +5,11 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DID"
              mc:Ignorable="d" 
-             d:DesignHeight="250" d:DesignWidth="400">
+             d:DesignHeight="250" d:DesignWidth="400" Width="400" Height="250">
     <Grid>
 
-        <Image Source="img/logo.png" Width="400" Height="250"/>
-        <TextBlock x:Name="clock" FontSize="15pt" Text="21년 5월 20일 오후 3시 31분" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <Image Source="img/logo.png" Width="Auto" Height="Auto" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,50,0,0"/>
+        <TextBlock x:Name="clock" FontSize="15pt" Text="21년 5월 20일 오후 3시 31분" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10"/>
 
     </Grid>
 </UserControl>

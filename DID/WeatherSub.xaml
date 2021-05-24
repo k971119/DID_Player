@@ -5,18 +5,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DID"
              mc:Ignorable="d" 
-             d:DesignHeight="250" d:DesignWidth="400" Width="400" Height="250">
+             d:DesignHeight="250" d:DesignWidth="400" Width="320" Height="250">
     <Grid>
 
-        <TextBlock Text="오늘 날씨" FontSize="25pt" Margin="0,0,0,0" Width="400" Background="LightSkyBlue" Height="40" VerticalAlignment="Top"/>
+        <TextBlock Text="오늘 날씨" FontSize="25pt" Margin="0,0,0,0" Width="320" Background="LightSkyBlue" Height="40" VerticalAlignment="Top" TextAlignment="Center"/>
 
-        <Grid HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="150" Width ="200">
-        <Image x:Name="weatherIMG" Source="img/sun.jpg" Height="120" Width="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="150" Width ="200" Margin="0,0,0,10">
+        <Image x:Name="climateIMG" Source="img/sun.png" Height="120" Width="120" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
         <Grid HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="150" Width ="150">
-
-            <TextBlock x:Name="temp" Text="23℃" FontSize="20pt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,0,40" />
-            <TextBlock x:Name="weatherText" Text="맑음" FontSize="20pt" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,40,0,0"/>
+            <TextBlock x:Name="temp" Text="23℃" FontSize="20pt" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,40" />
+            <TextBlock x:Name="climate" Text="맑음" FontSize="20pt" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,40,0,0"/>
         </Grid>
 
     </Grid>

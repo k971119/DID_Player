@@ -27,7 +27,7 @@ namespace DID
             }
         }
 
-        public String Read()
+        public String NewsRead()
         {
             XmlNodeList nodeList = xml.GetElementsByTagName("item");
 
@@ -38,7 +38,7 @@ namespace DID
                 News[i] = nodeList[i].InnerText.Trim();
             }
             Random random = new Random();
-            String result = News[0];
+            String result = News[0]+" ";
             for(int i = 0; i<5; i++)
             {
                 string sub = News[random.Next(1, News.Length - 1)];
@@ -51,6 +51,30 @@ namespace DID
             }
             Console.Write(result);
             return result;
+        }
+
+        public String StockRead()
+        {
+            XmlNodeList nodeList = xml.GetElementsByTagName("data");
+            return "";
+        }
+
+        public String[] WeatherRead()
+        {
+            String[] resultData = new string[2];
+
+            XmlNodeList nodeList = xml.GetElementsByTagName("data");
+            XmlNode node = xml.SelectSingleNode("data");
+            //Console.WriteLine(node["temp"].InnerText);
+            foreach(XmlNode data in nodeList)
+            {
+                resultData[0] = data["temp"].InnerText;
+                Console.WriteLine(resultData[0]);
+                resultData[1] = data["wfKor"].InnerText;
+                Console.WriteLine(resultData[1]);
+            }
+
+            return resultData;
         }
     }
 }

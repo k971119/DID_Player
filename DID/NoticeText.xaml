@@ -5,10 +5,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DID"
              mc:Ignorable="d" 
-             d:DesignHeight="100" Width="1920" Loaded="UserControl_Loaded">
+             d:DesignHeight="100" Width="Auto" Loaded="UserControl_Loaded">
     <Grid>
-        <Canvas ClipToBounds="True" Name="canMain" Width="1550" HorizontalAlignment="Left" Margin="0,0,0,0">
-            <TextBlock x:Name="TxtInterfaceBottom" HorizontalAlignment="Left" VerticalAlignment="Center" Height="100" FontFamily="Gulim" FontSize="40" Foreground="White" Visibility="Visible" Text="가나다라마바사아자차카타파하" TextOptions.TextHintingMode="Animated" TextOptions.TextFormattingMode="Display" Margin="0, 30, 0, 0"  />
+        <Canvas x:Name="BottomSubTitle" ClipToBounds="True" Width="Auto" HorizontalAlignment="Left" Margin="0,0,0,0">
+            <TextBlock x:Name="TxtInterfaceBottom" HorizontalAlignment="Left" VerticalAlignment="Center" Height="50" Width="Auto" FontFamily="Gulim" FontSize="40" Foreground="White" Visibility="Visible" Text="가나다라마바사아자차카타파하" TextOptions.TextHintingMode="Animated" TextOptions.TextFormattingMode="Display" Margin="0, 25, 0, 0"  />
         </Canvas>
 
     </Grid>

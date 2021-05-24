@@ -185,10 +185,20 @@
     <Resource Include="img\up.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\sun.jpg" />
+    <Resource Include="img\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\logo.png" />
+    <Resource Include="img\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\rain_snow.png" />
+    <Resource Include="img\sun.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

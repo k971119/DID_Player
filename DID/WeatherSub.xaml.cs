@@ -24,5 +24,40 @@ namespace DID
         {
             InitializeComponent();
         }
+
+        internal void setWeather(String sTemp, String sClimate)
+        {
+            temp.Text = sTemp;
+            climate.Text = sClimate;
+            BitmapImage img = new BitmapImage();
+            img.BeginInit();
+            switch (sClimate)
+            {
+                case "맑음":
+                    img.UriSource = new Uri("img\\sun.png", UriKind.Relative);
+                    break;
+                case "구름 많음":
+                    img.UriSource = new Uri("img\\cloud.png", UriKind.Relative);
+                    break;
+                case "흐림":
+                    img.UriSource = new Uri("img\\cloud.png", UriKind.Relative);
+                    break;
+                case "비":
+                    img.UriSource = new Uri("img\\rain.png", UriKind.Relative);
+                    break;
+                case "비/눈":
+                    img.UriSource = new Uri("img\\rain_snow.png", UriKind.Relative);
+                    break;
+                case "눈":
+                    img.UriSource = new Uri("img\\snow.png", UriKind.Relative);
+                    break;
+                case "소나기":
+                    img.UriSource = new Uri("img\\rain.png", UriKind.Relative);
+                    break;
+            }
+            img.EndInit();
+            climateIMG.Stretch = Stretch.Fill;
+            climateIMG.Source = img;
+        }
     }
 }

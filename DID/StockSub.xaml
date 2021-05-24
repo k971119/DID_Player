@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:DID"
              mc:Ignorable="d" 
-             d:DesignHeight="250" d:DesignWidth="400" Height="250" Width="400">
+             d:DesignHeight="250" d:DesignWidth="400" Height="250" Width="320">
 
     <Grid >
         <Grid.RowDefinitions>
@@ -17,36 +17,27 @@
             <RowDefinition Height="35"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="110"/>
+            <ColumnDefinition Width="150"/>
             <ColumnDefinition Width="50"/>
-            <ColumnDefinition Width="110"/>
-            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="120"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="title" Grid.Row="0"  Grid.Column="0" Text="주가 정보" FontSize="25pt" Grid.ColumnSpan="4" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,0,0" Background="Orange" Width="400"/>
+        <TextBlock x:Name="title" Grid.Row="0"  Grid.Column="0" Text="주가 정보" FontSize="25pt" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Background="Orange" Width="320" TextAlignment="Center"/>
 
-        <TextBlock x:Name="list1_1" Grid.Row="1" Grid.Column="0" FontSize="15pt" Text="주식목록1" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown1_1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
+        <TextBlock x:Name="list1" Grid.Row="1" Grid.Column="0" FontSize="15pt" Text="주식목록1" VerticalAlignment="Center" HorizontalAlignment="center"/>
+        <Image x:Name="updown1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
+        <TextBlock x:Name="price1" Grid.Row="1" Grid.Column="2" FontSize="15pt" Text="asdffff" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
-        <TextBlock x:Name="list1_2" Grid.Row="1" Grid.Column="2" FontSize="15pt" Text="주식목록2" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown1_2" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/up.png" /> 
+        <TextBlock x:Name="list2" Grid.Row="2" Grid.Column="0" FontSize="15pt" Text="주식목록2" VerticalAlignment="Center" HorizontalAlignment="center"/>
+        <Image x:Name="updown2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
+        <TextBlock x:Name="price2" Grid.Row="2" Grid.Column="2" FontSize="15pt" Text="주가2" VerticalAlignment="Center" HorizontalAlignment="center"/>
 
-        <TextBlock x:Name="list2_1" Grid.Row="2" Grid.Column="0" FontSize="15pt" Text="주식목록3" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown2_1" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
-
-        <TextBlock x:Name="list2_2" Grid.Row="2" Grid.Column="2" FontSize="15pt" Text="주식목록4" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown2_2" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
-
-        <TextBlock x:Name="list3_1" Grid.Row="3" Grid.Column="0" FontSize="15pt" Text="주식목록5" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown3_1" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
-
-        <TextBlock x:Name="list3_2" Grid.Row="3" Grid.Column="2" FontSize="15pt" Text="주식목록6" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown3_2" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
+        <TextBlock x:Name="list3" Grid.Row="3" Grid.Column="0" FontSize="15pt" Text="주식목록3" VerticalAlignment="Center" HorizontalAlignment="center"/>
+        <Image x:Name="updown3" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
+        <TextBlock x:Name="price3" Grid.Row="3" Grid.Column="2" FontSize="15pt" Text="주가3" VerticalAlignment="Center" HorizontalAlignment="center"/>
         
-        <TextBlock x:Name="list4_1" Grid.Row="4" Grid.Column="0" FontSize="15pt" Text="주식목록7" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown4_1" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
-
-        <TextBlock x:Name="list4_2" Grid.Row="4" Grid.Column="2" FontSize="15pt" Text="주식목록8" VerticalAlignment="Center" HorizontalAlignment="center"/>
-        <Image x:Name="updown4_2" Grid.Row="4" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
+        <TextBlock x:Name="list4" Grid.Row="4" Grid.Column="0" FontSize="15pt" Text="주식목록4" VerticalAlignment="Center" HorizontalAlignment="center"/>
+        <Image x:Name="updown4" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Source="img/down.png" />
+        <TextBlock x:Name="price4" Grid.Row="4" Grid.Column="2" FontSize="15pt" Text="주가4" VerticalAlignment="Center" HorizontalAlignment="center"/>
 
     </Grid>
 </UserControl>

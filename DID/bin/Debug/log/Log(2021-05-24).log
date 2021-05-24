@@ -1,0 +1,51 @@
+2021-05-24 09:21:17,292 [1] ERROR DID.DID_Form - ContentsFileCheckTimer_Tick Error 
+
+System.Net.WebException: WebClient를 요청하는 동안 예외가 발생했습니다. ---> System.IO.IOException: 요청한 작업은, 사용자가 매핑한 구역이 열려 있는 상태인 파일에서 수행할 수 없습니다.
+
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   위치: System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   위치: DID.DID_Form.FileDownLoad() 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 199
+2021-05-24 14:23:02,544 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: DID.XMLReader.WeatherRead() 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\XMLReader.cs:줄 68
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 535
+2021-05-24 14:27:29,274 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.NullReferenceException: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+   위치: DID.XMLReader.WeatherRead() 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\XMLReader.cs:줄 68
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 535
+2021-05-24 15:36:26,071 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.UriFormatException: 잘못된 URI: URI 형식을 확인할 수 없습니다.
+   위치: System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   위치: DID.WeatherSub.setWeather(String sTemp, String sClimate) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\WeatherSub.xaml.cs:줄 46
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 547
+2021-05-24 15:47:04,073 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.UriFormatException: 잘못된 URI: URI 형식을 확인할 수 없습니다.
+   위치: System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   위치: DID.WeatherSub.setWeather(String sTemp, String sClimate) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\WeatherSub.xaml.cs:줄 46
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 547
+2021-05-24 15:48:12,598 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.UriFormatException: 잘못된 URI: URI 형식을 확인할 수 없습니다.
+   위치: System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   위치: DID.WeatherSub.setWeather(String sTemp, String sClimate) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\WeatherSub.xaml.cs:줄 46
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 547
+2021-05-24 15:48:34,863 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.UriFormatException: 잘못된 URI: URI 형식을 확인할 수 없습니다.
+   위치: System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   위치: DID.WeatherSub.setWeather(String sTemp, String sClimate) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\WeatherSub.xaml.cs:줄 46
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 547
+2021-05-24 15:51:46,969 [1] ERROR DID.DID_Form - ScheduleLayout Error 
+
+System.UriFormatException: 잘못된 URI: URI 형식을 확인할 수 없습니다.
+   위치: System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   위치: DID.WeatherSub.setWeather(String sTemp, String sClimate) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\WeatherSub.xaml.cs:줄 46
+   위치: DID.DID_Form.SetScheduleLayout(String sScheduleType, Int32 iWidth1, Int32 iHeight1, Int32 iWidth2, Int32 iHeight2, Int32 iWidth3, Int32 iHeight3, Boolean bSchedule) 파일 C:\Users\User\Desktop\파일백업 20210513 (1)\DID_UserControl - 이거 보면됨\DID\DID_Main.cs:줄 547
